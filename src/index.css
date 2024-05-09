@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body{
+    background: #e2e8f0
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+  }
+  
+  .horizontal-sections {
+    display: flex;
+  }
+  
+  .section {
+    border: 1px solid black;
+    padding: 10px;
+    overflow: hidden;
+  }
+  
+  .section1,
+  .section2 {
+    flex-grow: 0;
+    flex-shrink: 0;
+  }
+  
+  .section1 {
+    width: 60%;
+    height: 200px;
+  }
+  
+  .section2 {
+    width: 40%;
+    height: 200px;
+  }
+  
+  .section3 {
+    width: 100%;
+    /* height: 200px; */
+  }
+  
+  
